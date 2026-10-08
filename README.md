@@ -1,6 +1,16 @@
-# pocket_piano
+# Pocket Piano
 
-A new Flutter project.
+A responsive Flutter piano for Android, iOS and the web, with 24 keys,
+computer-keyboard shortcuts, four waveforms, volume and sustain controls.
+
+## Vercel deployment
+
+The Vercel project connects to this repository. Pushes to `main` build and
+deploy the web application automatically. `vercel.json` selects `build/web`
+as the output directory. `scripts/vercel-build.sh` downloads Flutter 3.47.6,
+installs the locked dependencies and runs `flutter build web --release`.
+
+Browser audio starts after a user gesture. Click or tap a piano key to begin.
 
 ## Getting Started
 
