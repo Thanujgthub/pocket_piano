@@ -1,0 +1,22 @@
+name: pocket_piano
+description: A responsive Pocket Piano Flutter app for Android, iOS and Web.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_soloud: ^5.1.6
+  web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
